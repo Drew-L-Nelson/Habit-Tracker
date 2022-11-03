@@ -1,0 +1,46 @@
+/* .tracker-left-div, 
+.tracker-center-div, 
+.tracker-right-div, 
+.tracker-component-main,
+.counter-div,
+.button-div,
+.habit-name-div {
+  border: 1px solid red;
+} */
+
+.counter-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  border-radius: 8px;
+  height: 90%;
+  width: 90%;
+}
+
+.tracker-left-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 20%;
+}
+
+.tracker-center-div {
+
+  width: 50%;
+}
+
+.tracker-right-div {
+  width: 25%;
+}
+
+.tracker-component-main {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 98%;
+  padding: 3px;
+  margin-top: 2px;
+}
