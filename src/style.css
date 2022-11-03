@@ -8,7 +8,7 @@
   flex-wrap: nowrap;
   height: 300px;
   justify-content: space-evenly;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
 }
 
 .left-div {

@@ -26,17 +26,27 @@ export default function TrackerComponent() {
           Habit name here
         </div>
         <div className='button-div'>
-          <button className='countUp' onClick={countUp}>
-            ▲ 1
-          </button>  
           <button className='countDown' onClick={countDown}>
             ▼ 1
           </button>
+          <button className='countUp' onClick={countUp}>
+            ▲ 1
+          </button> 
         </div>  
       </div>
 
       <div className='tracker-right-div'>
-        
+        <div className='edit-button-div'>
+          <button className='edit-button'>
+            EDIT
+          </button>
+        </div>
+
+        <div className='delete-button-div'>
+          <button className='delete-button'>
+            DELETE
+          </button>
+        </div>
       </div>
     </div>
   )
