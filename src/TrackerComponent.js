@@ -1,6 +1,7 @@
 import React from 'react';
 import "./TrackerComponent.css";
 import { useState } from 'react';
+import Button from 'react-bootstrap/Button';
 
 export default function TrackerComponent() {
   const [count, setCount] = useState(0);
@@ -29,12 +30,8 @@ export default function TrackerComponent() {
           Habit name here
         </div>
         <div className='button-div'>
-          <button className='countDown' onClick={countDown}>
-            ▼ 1
-          </button>
-          <button className='countUp' onClick={countUp}>
-            ▲ 1
-          </button> 
+          <Button variant="outline-primary" onClick={countDown}>▼ 1</Button>{' '}
+          <Button variant="outline-primary" onClick={countUp}>▲ 1</Button>{' '}
         </div>  
       </div>
 
