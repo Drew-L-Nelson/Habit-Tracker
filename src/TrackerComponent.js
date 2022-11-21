@@ -10,6 +10,9 @@ export default function TrackerComponent() {
   };
 
   function countDown() {
+    if (count <= 0) {
+      return 0;
+    }
     setCount(count - 1);
   };
 
