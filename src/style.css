@@ -2,6 +2,8 @@
   border: 2px solid gray;
 } */
 
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
 .main {
   display: flex;
   flex-direction: row;

@@ -30,22 +30,39 @@ export default function TrackerComponent() {
           Habit name here
         </div>
         <div className='button-div'>
-          <Button variant="outline-primary" onClick={countDown}>▼ 1</Button>{' '}
-          <Button variant="outline-primary" onClick={countUp}>▲ 1</Button>{' '}
+          <Button 
+            variant="primary" 
+            onClick={countDown}
+            size="sm"
+            >▼ 1</Button>{' '} 
+          <Button 
+            variant="primary" 
+            onClick={countUp}
+            size="sm">▲ 1</Button>
         </div>  
       </div>
 
       <div className='tracker-right-div'>
         <div className='edit-button-div'>
-          <button className='edit-button'>
+          <Button
+            variant="dark"
+            size="sm"
+            style={{ width: '120px' }} 
+          >Edit Habit</Button>
+          {/* <button className='edit-button'>
             EDIT
-          </button>
+          </button> */}
         </div>
 
         <div className='delete-button-div'>
-          <button className='delete-button'>
+          <Button
+            variant="danger"
+            size="sm"
+            style={{ width: '120px' }} 
+          >Delete Habit</Button>
+          {/* <button className='delete-button'>
             DELETE
-          </button>
+          </button> */}
         </div>
       </div>
     </div>
