@@ -47,22 +47,16 @@ export default function TrackerComponent() {
           <Button
             variant="dark"
             size="sm"
-            style={{ width: '120px' }} 
+            style={{ width: '120px', margin: '1px' }} 
           >Edit Habit</Button>
-          {/* <button className='edit-button'>
-            EDIT
-          </button> */}
         </div>
 
         <div className='delete-button-div'>
           <Button
             variant="danger"
             size="sm"
-            style={{ width: '120px' }} 
+            style={{ width: '120px', margin: '1px' }} 
           >Delete Habit</Button>
-          {/* <button className='delete-button'>
-            DELETE
-          </button> */}
         </div>
       </div>
     </div>
