@@ -4,7 +4,6 @@
   flex-direction: row;
   justify-content: space-between;
   margin-top: 0.5rem;
-  border: 2px solid orange;
   background-color: #323232;
 }
 
@@ -14,7 +13,6 @@
   align-items: center;
   justify-content: center;
   color: #2AA8D0;
-  border: 1px solid gray;
   background-color: #313E42;
   border-radius: 100px;
 }

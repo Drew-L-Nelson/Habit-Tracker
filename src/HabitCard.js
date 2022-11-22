@@ -28,10 +28,10 @@ export default function HabitCard () {
 
       <Card.Body className="title-count-buttons">
         <Card.Title>Habit Title</Card.Title>
-        <Button className="counters" onClick={countDown} size="sm">
+        <Button className="counters" variant="secondary" onClick={countDown} size="sm">
             ▼ 1
           </Button>{' '}
-          <Button className="counters" onClick={countUp} size="sm">
+          <Button className="counters" variant="secondary" onClick={countUp} size="sm">
             ▲ 1
           </Button>
       </Card.Body>
