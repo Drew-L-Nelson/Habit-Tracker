@@ -11,17 +11,23 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #2AA8D0;
   width: 120px;
   height: 120px;
-  color: #2AA8D0;
+  /* background-color: #313E42; */
+}
+
+.count-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
   background-color: #313E42;
   border-radius: 100px;
 }
 
 .count {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-size: 3rem;
 }
 

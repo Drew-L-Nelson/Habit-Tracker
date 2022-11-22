@@ -21,8 +21,10 @@ export default function HabitCard () {
     <Card className='main-div'>
 
       <div className="count-div">
-        <div className="count">
-          {count}
+        <div className="count-background">
+          <h1 className="count">
+            {count}
+          </h1>
         </div>
       </div>
 
