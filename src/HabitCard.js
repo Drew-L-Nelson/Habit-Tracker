@@ -44,14 +44,14 @@ export default function HabitCard () {
           <Button
             variant="secondary"
             size="sm"
-            style={{ width: '120px', margin: '1px' }}
+            style={{ width: '120px', margin: '2px' }}
           >
             Edit Habit
           </Button>
           <Button
             variant="secondary"
             size="sm"
-            style={{ width: '120px', margin: '1px' }}
+            style={{ width: '120px', margin: '2px' }}
             onClick={() => setModalShow(true)}
           >
             Delete Habit
