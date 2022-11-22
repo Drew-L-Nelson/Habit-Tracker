@@ -36,7 +36,7 @@ export default function HabitCard () {
           </Button>
       </Card.Body>
 
-      <Card.Body style={{ display: 'flex', flexDirection: 'column', 'align-items': 'flex-end' }}>
+      <Card.Body className="edit-delete-buttons">
           <Button
             variant="dark"
             size="sm"
