@@ -6,12 +6,12 @@ export default function App() {
   
   return (
     <div className='main'>
-      <div className='left-div'>
-        {/* <div>
+      {/* <div className='left-div'>
+        <div>
 
         
-        </div> */}
-      </div>
+        </div>
+      </div> */}
 
       <div className='center-div'>
           <HabitCard />
@@ -19,12 +19,12 @@ export default function App() {
           <HabitCard />
       </div>
 
-      <div className='right-div'>
-        {/* <div>
+      {/* <div className='right-div'>
+        <div>
 
         
-        </div> */}
-      </div>
+        </div>
+      </div> */}
     </div>
   );
 }

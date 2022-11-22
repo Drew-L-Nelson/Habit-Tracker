@@ -28,7 +28,8 @@ body {
   border-radius: 5px;
   border: 1px solid whitesmoke;
   padding-bottom: 0.5rem;
-  width: 40%;
+  width: 100%;
+  /* width: 40%; */
 }
 
 .right-div {
