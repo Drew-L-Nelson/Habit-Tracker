@@ -20,8 +20,8 @@ export default function HabitCard () {
   return (
     <Card className='main-div'>
 
-      <Card.Body style={{ width: '30px', display: 'flex', 'align-items': 'center', 'justify-content': 'center', border: '1px solid gray', 'border-radius': '100px'}}>
-          <Card.Title style={{ height: '98%',  display: 'flex', 'align-items': 'center', 'justify-content': 'center', 'font-size': "4rem"}}>
+      <Card.Body className="count-div">
+          <Card.Title className="count">
             {count}
           </Card.Title>
       </Card.Body>
