@@ -3,9 +3,14 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
+    "@babel/core": "^7.0.0",
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@mui/material": "^5.10.15",
     "@popperjs/core": "^2.11.6",
     "@types/react": ">=16.14.8",
     "bootstrap": "^5.2.2",
+    "dayjs": "^1.11.6",
     "react": "^18.2.0",
     "react-bootstrap": "^2.6.0",
     "react-dom": "^18.2.0"
