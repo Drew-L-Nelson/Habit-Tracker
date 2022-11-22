@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import DeleteButtonModal from './DeleteButtonModal'
 import './HabitCard.css';
 
 export default function HabitCard () {
   const [count, setCount] = useState(0);
+  const [modalShow, setModalShow] = useState(false);
 
   function countUp() {
     setCount(count + 1);
@@ -50,9 +52,14 @@ export default function HabitCard () {
             variant="secondary"
             size="sm"
             style={{ width: '120px', margin: '1px' }}
+            onClick={() => setModalShow(true)}
           >
             Delete Habit
           </Button>
+          <DeleteButtonModal 
+            show={modalShow}
+            onHide={() => setModalShow(false)}
+          />
       </Card.Body>
 
     </Card>
