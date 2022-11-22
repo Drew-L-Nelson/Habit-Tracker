@@ -18,12 +18,12 @@ export default function HabitCard () {
   }
 
   return (
-    <Card style={{ width: '98%', display: 'flex', flexDirection: 'row', 'justify-content': 'space-between', 'margin-top': '0.5rem' }}>
+    <Card className='main-div'>
 
-      <Card.Body style={{ width: '20px', height: '80%', display: 'flex', 'align-items': 'center', 'justify-content': 'center', 'background-color': 'light-gray', border: '1px solid orange', 'border-radius': '5px'}}>
-        <Card.Title size="sm" style={{  height: '98%', 'align-items': 'center', display: 'flex', 'justify-content': 'center', 'font-size': "4rem"}}>
-          {count}
-        </Card.Title>
+      <Card.Body style={{ width: '30px', display: 'flex', 'align-items': 'center', 'justify-content': 'center', border: '1px solid gray', 'border-radius': '100px'}}>
+          <Card.Title style={{ height: '98%',  display: 'flex', 'align-items': 'center', 'justify-content': 'center', 'font-size': "4rem"}}>
+            {count}
+          </Card.Title>
       </Card.Body>
 
       <Card.Body>
