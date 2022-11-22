@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import './CardTester.css';
+import './HabitCard.css';
 
-export default function CardTester () {
+export default function HabitCard () {
   const [count, setCount] = useState(0);
 
   function countUp() {
@@ -18,18 +18,16 @@ export default function CardTester () {
   }
 
   return (
-    <Card style={{ width: '98%', display: 'flex', flexDirection: 'row' }}>
+    <Card style={{ width: '98%', display: 'flex', flexDirection: 'row', 'justify-content': 'space-between', 'margin-top': '0.5rem' }}>
 
-      <Card.Body style={{ width: '20%', display: 'flex', 'align-items': 'center', 'justify-content': 'center' }}>
-        <Card.Title style={{ width: '30px', height: '30px', 'margin-left': '40%'}} >{count}</Card.Title>
+      <Card.Body style={{ width: '20px', height: '80%', display: 'flex', 'align-items': 'center', 'justify-content': 'center', 'background-color': 'light-gray', border: '1px solid orange', 'border-radius': '5px'}}>
+        <Card.Title size="sm" style={{  height: '98%', 'align-items': 'center', display: 'flex', 'justify-content': 'center', 'font-size': "4rem"}}>
+          {count}
+        </Card.Title>
       </Card.Body>
 
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
         <Button variant="primary" onClick={countDown} size="sm">
             ▼ 1
           </Button>{' '}
@@ -38,7 +36,7 @@ export default function CardTester () {
           </Button>
       </Card.Body>
 
-      <Card.Body>
+      <Card.Body style={{ display: 'flex', flexDirection: 'column', 'align-items': 'flex-end' }}>
           <Button
             variant="dark"
             size="sm"

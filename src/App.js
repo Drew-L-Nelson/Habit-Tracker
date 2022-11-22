@@ -1,7 +1,6 @@
 import React from "react";
 import "./style.css";
-import TrackerComponent from "./TrackerComponent";
-import CardTester from './CardTester';
+import HabitCard from './HabitCard';
 
 export default function App() {
   
@@ -15,9 +14,8 @@ export default function App() {
       </div>
 
       <div className='center-div'>
-          <TrackerComponent/>
-          <TrackerComponent/>
-          <CardTester />
+          <HabitCard />
+          <HabitCard />
       </div>
 
       <div className='right-div'>
