@@ -16,6 +16,7 @@ export default function App() {
       <div className='center-div'>
           <HabitCard />
           <HabitCard />
+          <HabitCard />
       </div>
 
       <div className='right-div'>

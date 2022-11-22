@@ -14,7 +14,9 @@ body {
 }
 
 .left-div {
+  border-radius: 5px;
   border: 1px solid red;
+  padding-bottom: 0.5rem;
   width: 25%;
 }
 
@@ -23,12 +25,16 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  border-radius: 5px;
   border: 1px solid red;
+  padding-bottom: 0.5rem;
   width: 40%;
 }
 
 .right-div {
+  border-radius: 5px;
   border: 1px solid red;
+  padding-bottom: 0.5rem;
   width: 25%;
 }
 

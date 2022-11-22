@@ -20,11 +20,11 @@ export default function HabitCard () {
   return (
     <Card className='main-div'>
 
-      <Card.Body className="count-div">
-          <Card.Title className="count">
-            {count}
-          </Card.Title>
-      </Card.Body>
+      <div className="count-div">
+        <div className="count">
+          {count}
+        </div>
+      </div>
 
       <Card.Body className="title-count-buttons">
         <Card.Title>Habit Title</Card.Title>
@@ -38,14 +38,14 @@ export default function HabitCard () {
 
       <Card.Body className="edit-delete-buttons">
           <Button
-            variant="dark"
+            variant="secondary"
             size="sm"
             style={{ width: '120px', margin: '1px' }}
           >
             Edit Habit
           </Button>
           <Button
-            variant="danger"
+            variant="secondary"
             size="sm"
             style={{ width: '120px', margin: '1px' }}
           >
