@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import './CardTester.css';
 
 export default function CardTester () {
   const [count, setCount] = useState(0);
@@ -17,7 +18,12 @@ export default function CardTester () {
   }
 
   return (
-    <Card style={{ width: '98%', margin: '5px' }}>
+    <Card style={{ width: '98%', display: 'flex', flexDirection: 'row' }}>
+
+      <Card.Body style={{ width: '20%', display: 'flex', 'align-items': 'center', 'justify-content': 'center' }}>
+        <Card.Title style={{ width: '30px', height: '30px', 'margin-left': '40%'}} >{count}</Card.Title>
+      </Card.Body>
+
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
@@ -31,6 +37,24 @@ export default function CardTester () {
             ▲ 1
           </Button>
       </Card.Body>
+
+      <Card.Body>
+          <Button
+            variant="dark"
+            size="sm"
+            style={{ width: '120px', margin: '1px' }}
+          >
+            Edit Habit
+          </Button>
+          <Button
+            variant="danger"
+            size="sm"
+            style={{ width: '120px', margin: '1px' }}
+          >
+            Delete Habit
+          </Button>
+      </Card.Body>
+
     </Card>
   );
 }
